@@ -1,9 +1,21 @@
-streamlit
-python-docx
-pymupdf
-langdetect
-nltk
-spacy==3.7.2
-en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
-google-genai
-pydantic
+# --- Web a GUI ---
+streamlit>=1.30.0
+customtkinter>=5.2.0
+
+# --- Zpracování dokumentů ---
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+langdetect>=1.0.9
+
+# --- NLP a LLM Enginy ---
+nltk>=3.8.1
+spacy>=3.7.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1.tar.gz
+google-genai>=0.5.0
+pydantic>=2.5.0
+
+# --- Konfigurace a Evaluace ---
+python-dotenv>=1.0.0
+pandas>=2.0.0
+datasets>=2.16.0
+rouge-score>=0.1.2
